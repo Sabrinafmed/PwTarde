@@ -1,0 +1,48 @@
+body, li{
+    /* background-color:black;*/
+     margin:0;
+     padding:0;
+     list-style:none;
+     font-family:'Arial';
+ }
+ a{
+     text-decoration:none;
+ }
+ #container{
+     display:grid;
+     grid-template-rows:15vh 85vh;
+     grid-template-areas:
+         'cabecalho'
+         'conteudo'
+ }
+ #cabecalho{
+     grid-area: cabecalho;
+     background-color:#1d1d1d;
+     color:white;
+     display:flex;
+     justify-content:space-between;
+     align-items:center;
+ }
+ #conteudo{
+     grid-area:conteudo;
+     background-color:#ccc;
+ }
+ img{
+     margin-top:15px;
+     margin-left:15px;
+ }
+ .menu{
+     display:flex;
+ }
+ .menu li{
+    
+     padding:20px;
+     margin-left:20px;
+ }
+ .menu li a{
+     display:block;
+     padding:10px;
+     cursor:pointer;
+     background-color:green;
+     color:white;
+ }
