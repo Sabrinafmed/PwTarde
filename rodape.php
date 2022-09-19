@@ -1,5 +1,4 @@
-</main>
-        </div>
-        Desenvolvido pela Cleonice
-    </body>
+</div> <!-- Fechamento da div conteiner -->
+<script src="./bootstrap.bundle.min.js"></script>
+</body>
 </html>

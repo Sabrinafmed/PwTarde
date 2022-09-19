@@ -1,16 +1,25 @@
-
 <?php include "cabecalho.php"; ?>
 
-<h1>Lista de Clientes</h1>
+<h1>Lista de Usuários</h1>
 
 <div class="card mt-4 mb-4">
-    <div class="card-header bg-secondarytext-white">Usúarios</div>
+    <div class="card-header bg-secondary text-white">Usúarios</div>
     <div class="card-body">
         <div class="row">
             <div class="col-2">
                 <button class="btn btn-dark">Novo Usúario</button>
 
             </div>
+
+            <div class="col-2">
+                <select name="opcao" class="form-control">
+                    <option selected="0" value="0">Todos</option>
+                    <option value="1">Por Nome</option>
+                    <option value="2">Por Código</option>
+                </select>
+
+            </div>
+
             <div class="col-4">
                 <input type="text" class="form-control" name="textoPesquisado" />
 
