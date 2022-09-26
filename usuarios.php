@@ -33,41 +33,42 @@
 </div>
 
 <table class="table table-hover table-striped">
-  <thead>
-    <tr>
-      <th>#</th>
-      <th>ID</th>
-      <th>Nome</th>
-      <th>Email</th>
-    <th></tr>
-  </thead>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>ID</th>
+            <th>Nome</th>
+            <th>Email</th>
+            <th>
+        </tr>
+    </thead>
 
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Cleo</td>
-      <td>cleonice.oliveira@fatec.sp.gov.br</td>
-      <td><a class="btn btn-dark" >Editar</a> </td>
-      <td><a class="btn btn-secondary" >Excluir</a> </td>
-    </tr>
-   
-    <?php 
-        for($i = 0; $i < 10; $i++){
-            ?>
-                <tr>
-                    <td><?php echo $i; ?> </td>
-                    <td>Nome <?php echo $i; ?> </td>
-                    <td>Email <?php echo $i; ?> </td>
-                    <td><a class="btn btn-dark" >Editar</a> </td>
-                    <td><a class="btn btn-secondary" >Excluir</a> </td>
-                </tr>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Cleo</td>
+            <td>cleonice.oliveira@fatec.sp.gov.br</td>
+            <td><a class="btn btn-dark">Editar</a> </td>
+            <td><a class="btn btn-secondary">Excluir</a> </td>
+        </tr>
 
-            <?php
+        <?php
+        for ($i = 0; $i < 10; $i++) {
+        ?>
+            <tr>
+                <td><?php echo $i; ?> </td>
+                <td>Nome <?php echo $i; ?> </td>
+                <td>Email <?php echo $i; ?> </td>
+                <td><a class="btn btn-dark">Editar</a> </td>
+                <td><a class="btn btn-secondary">Excluir</a> </td>
+            </tr>
+
+        <?php
         }
 
-    ?>
+        ?>
 
-  </tbody>
+    </tbody>
 </table>
 
-<?php include "rodape.php";?>
+<?php include "rodape.php"; ?>
