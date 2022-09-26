@@ -24,7 +24,7 @@ if(isset($_GET["pesquisa"]) && !empty($_GET["pesquisa"]))
                         <a href="" class="btn btn-success">
                             Nova Disciplina
                         </a>
-</div>
+                    </div>
                     <div class="col-4">
                         <input type="text" name="pesquisa" class="form-control"/>
                     </div>
